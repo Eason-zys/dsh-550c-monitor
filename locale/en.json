@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "550C System Monitor",
+    "description": "Prints a 550C instrument plate at the foot of the sidebar: CPU, memory, disk, network throughput and GPU load, read from the machine the Host runs on."
+  }
+}

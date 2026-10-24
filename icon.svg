@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="System monitor plate">
+  <!-- A 550C instrument plate in miniature: a bracket frame, three rails at
+       different loads, and the hot rail flagged by a brighter fill. Drawn in
+       one ink so it reads at 16px in a plugin row. -->
+  <g fill="none" stroke="#e0a030" stroke-linecap="square">
+    <rect x="3.5" y="5.5" width="25" height="21" stroke-width="1.2" opacity=".55" />
+    <path d="M3.5 11h25" stroke-width="1" opacity=".3" />
+    <path d="M3.5 5.5h5M3.5 5.5v5M28.5 26.5h-5M28.5 26.5v-5" stroke-width="1.6" />
+  </g>
+  <g fill="#e0a030">
+    <rect x="7" y="14" width="12" height="2" opacity=".9" />
+    <rect x="7" y="18" width="7" height="2" opacity=".65" />
+    <rect x="7" y="22" width="16" height="2" />
+  </g>
+</svg>

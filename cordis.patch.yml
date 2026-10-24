@@ -1,0 +1,6 @@
+# One row: the Host half owns the sampling route, the Client half owns the plate.
+# Both travel in this package, so the row carries the bundle's own name and the
+# Client entry is resolved from `dsh.client` in package.json.
+- insert:
+    - id: monitor-550c
+      name: 'dsh-550c-monitor'

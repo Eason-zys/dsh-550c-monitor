@@ -1,0 +1,49 @@
+{
+  "name": "dsh-550c-monitor",
+  "version": "0.1.0",
+  "description": "550C skin companion: a translucent system-monitor plate (CPU / GPU / MEM / DSK / NET / TMP) for the DSH Web UI.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Eason-zys",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "550c",
+    "system-monitor",
+    "hud"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eason-zys/dsh-550c-monitor.git"
+  },
+  "bugs": "https://github.com/Eason-zys/dsh-550c-monitor/issues",
+  "homepage": "https://github.com/Eason-zys/dsh-550c-monitor#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  }
+}
